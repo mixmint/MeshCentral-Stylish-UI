@@ -94,14 +94,26 @@ Click the image below to open the demo
 ---
 
 ## 🎬 Demo Video
+<table align="center" border="0">
+  <tr>
+    <td align="center" colspan="1">
+
+      
 https://github.com/user-attachments/assets/196fe810-c98a-429c-9b7e-df52c22b79c6
 
 
 https://github.com/user-attachments/assets/99ee512d-064a-4226-a5e5-0ba5588302b3
 
 
+https://github.com/user-attachments/assets/d82b1981-8330-4bd8-bea8-48596ff5d86f
+</td>
+</tr>
+</td>
+</table>
+
 <p align="center" style="font-weight:bold; font-size:1.2em;">
-And much, much more...
+And 
+, much more...
 </p>
 
 ---
