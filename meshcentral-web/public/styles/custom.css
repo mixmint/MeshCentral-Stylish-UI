@@ -608,6 +608,17 @@ tr[name="xxdevice2"] {
   }
 }
 
+.table,
+ .table td,
+ .table th,
+ .table tr {
+    --bs-table-bg: unset !important;
+}
+
+.night #p17graph table, .night #p17info2 > table {
+    background-color: #8181810f !important;
+}
+
 
 /* **************************************************************** */
 /* Device - General Page customization */
@@ -1189,8 +1200,12 @@ table.table.table-hover.p3usersTable {
 /* Modals */
 #dialogHeader {
     background-color: unset !important;
-	cursor: default !important;
-	color: #CCCCCC !important;
+    cursor: default !important;
+	color: #212529 !important;
+}
+
+.night #dialogHeader {
+   color: #CCCCCC !important;
 }
 
 .modal-header {
@@ -1322,6 +1337,16 @@ table.table.table-hover.p3usersTable {
 
 #dialog2 > textarea#d2devNotes.form-control {
 	resize: vertical !important;
+}
+
+.card,
+ .modal-body,
+ .modal-footer {
+    background-color: unset !important;
+}
+
+[data-bs-theme="light"] .btn-secondary, [data-bs-theme="light"] .btn-light {
+        color: var(--bs-btn-color) !important;
 }
 
 /* forms */
@@ -2732,6 +2757,10 @@ input#p2FolderUp {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.content-area, .panel-content, .card-body, .modal-content, .table, .list-group-item {
+    background-color: unset !important;
 }
 
 /* **************************************************************** */

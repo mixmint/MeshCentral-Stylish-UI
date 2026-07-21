@@ -375,3 +375,6 @@
     to { --angle: 360deg; }
 }
 
+#p6title {
+    display: unset !important;
+}

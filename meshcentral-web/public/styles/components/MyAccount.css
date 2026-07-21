@@ -163,3 +163,6 @@ input#p2FolderUp {
   }
 }
 
+.content-area, .panel-content, .card-body, .modal-content, .table, .list-group-item {
+    background-color: unset !important;
+}

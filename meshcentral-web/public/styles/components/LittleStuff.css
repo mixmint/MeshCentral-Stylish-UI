@@ -111,8 +111,12 @@ table.table.table-hover.p3usersTable {
 /* Modals */
 #dialogHeader {
     background-color: unset !important;
-	cursor: default !important;
-	color: #CCCCCC !important;
+    cursor: default !important;
+	color: #212529 !important;
+}
+
+.night #dialogHeader {
+   color: #CCCCCC !important;
 }
 
 .modal-header {
@@ -244,6 +248,16 @@ table.table.table-hover.p3usersTable {
 
 #dialog2 > textarea#d2devNotes.form-control {
 	resize: vertical !important;
+}
+
+.card,
+ .modal-body,
+ .modal-footer {
+    background-color: unset !important;
+}
+
+[data-bs-theme="light"] .btn-secondary, [data-bs-theme="light"] .btn-light {
+        color: var(--bs-btn-color) !important;
 }
 
 /* forms */

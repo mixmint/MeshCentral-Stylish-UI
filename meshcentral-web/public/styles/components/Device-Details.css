@@ -151,3 +151,13 @@
   }
 }
 
+.table,
+ .table td,
+ .table th,
+ .table tr {
+    --bs-table-bg: unset !important;
+}
+
+.night #p17graph table, .night #p17info2 > table {
+    background-color: #8181810f !important;
+}

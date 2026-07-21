@@ -51,4 +51,3 @@
 #page_leftbar .nav-link:not([class*="lbbuttonsel"]):hover {
     background-color: var(--hover-bg) !important;
 }
-
