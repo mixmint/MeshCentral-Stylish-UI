@@ -310,7 +310,7 @@
     background: conic-gradient(
         from var(--angle),
         #00e5ff,
-		#e6e6e691,
+        #e6e6e691,
         #7c4dff,
         #00e5ff
     );
@@ -321,8 +321,11 @@
     -webkit-mask:
         linear-gradient(#000 0 0) content-box,
         linear-gradient(#000 0 0);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
     -webkit-mask-composite: xor;
-            mask-composite: exclude;
+    mask-composite: exclude;
     padding: 3px;
 }
 
@@ -333,7 +336,6 @@
   }
 }
 
-
 #p6 #serverStats > div[id^="serverMemoryChartView"]::after {
     content: "";
     position: absolute;
@@ -343,7 +345,7 @@
         from var(--angle),
         #7c4dff,
         #00e5ff,
-		#e6e6e691,
+        #e6e6e691,
         #7c4dff
     );
     animation: borderSpin 4s linear infinite;
@@ -353,8 +355,11 @@
     -webkit-mask:
         linear-gradient(#000 0 0) content-box,
         linear-gradient(#000 0 0);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
     -webkit-mask-composite: xor;
-            mask-composite: exclude;
+    mask-composite: exclude;
     padding: 3px;
 }
 

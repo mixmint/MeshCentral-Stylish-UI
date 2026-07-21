@@ -92,7 +92,7 @@ table.table.table-hover.p3usersTable {
 /* Scrollbar thumb (the draggable part) */
 ::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); */
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 	background-color: color-mix(in lab, currentcolor 15%, transparent) !important;
 }
@@ -273,10 +273,6 @@ table.table.table-hover.p3usersTable {
 .form-floating > .form-select {
   -webkit-appearance: none;
   appearance: none;
-}
-
-.form-select::-webkit-calendar-picker-indicator {
-  /*filter: invert(1); /* opcional: inverte seta */
 }
 
 .form-select option,
@@ -481,9 +477,7 @@ img#MainComputerImage:hover {
     padding: 10px;
 }
 
-.suggestionBoxItem:hover
-Specificity: (0,2,0)
- {
+.suggestionBoxItem:hover {
     background-color: var(--bs-primary);
 }
 
@@ -604,7 +598,34 @@ div[id$="BackButton"] {
 }
 
 #pluginRestartNotice.areaHead {
-	color: #212529; !important;
+	color: #212529 !important;
 	background: unset !important;
 	background-color: #dfcd6b !important;
+}
+
+[data-bs-theme="dark"] .modal-body h1, [data-bs-theme="dark"] .modal-body h2, [data-bs-theme="dark"] .modal-body h3, [data-bs-theme="dark"] .modal-body h4, [data-bs-theme="dark"] .modal-body h5, [data-bs-theme="dark"] .modal-body h6, [data-bs-theme="dark"] .card-body h1, [data-bs-theme="dark"] .card-body h2, [data-bs-theme="dark"] .card-body h3, [data-bs-theme="dark"] .card-body h4, [data-bs-theme="dark"] .card-body h5, [data-bs-theme="dark"] .card-body h6, [data-bs-theme="dark"] .fs-4, [data-bs-theme="dark"] .content-heading, [data-bs-theme="dark"] .panel-title, .night h1, .night .fs-4, .night .content-heading, .night .panel-title {
+    color: #BBB;
+}
+
+[data-bs-theme="dark"] #xdevices,
+[data-bs-theme="dark"] #NoMeshesPanel,
+[data-bs-theme="dark"] #serverStatsTable,
+[data-bs-theme="dark"] #p2info,
+[data-bs-theme="dark"] #p6info,
+[data-bs-theme="dark"] #p10info,
+[data-bs-theme="dark"] #p17info,
+[data-bs-theme="dark"] #p18info,
+[data-bs-theme="dark"] #p19pages,
+[data-bs-theme="dark"] #p20info,
+[data-bs-theme="dark"] #p20info2,
+[data-bs-theme="dark"] #p20info3,
+[data-bs-theme="dark"] #p21info,
+[data-bs-theme="dark"] #p30info,
+[data-bs-theme="dark"] #p51info {
+    color: unset;
+    background-color: unset;
+}
+
+.icon-customization-card .card-header {
+    background: unset;
 }

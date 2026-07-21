@@ -87,7 +87,7 @@
 #p17info {
     caption-side: bottom;
     border-collapse: collapse;
-    vertical-align: inherit;
+    /* vertical-align: inherit; */
     unicode-bidi: isolate;
     overflow-wrap: break-word;
     align-items: center;
