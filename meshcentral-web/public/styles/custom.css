@@ -671,6 +671,11 @@ tr[name="xxdevice2"] {
     text-align: center;
 }
 
+.night #p10html2 thead {
+    background-color: unset;
+}
+
+
 /* **************************************************************** */
 /* Drop down context menu */
 .contextMenu {

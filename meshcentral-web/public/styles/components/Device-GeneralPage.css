@@ -48,3 +48,7 @@
 #notesPanel th {
     text-align: center;
 }
+
+.night #p10html2 thead {
+    background-color: unset;
+}
